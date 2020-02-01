@@ -6,5 +6,6 @@ WHEN A+B >C AND A+C > B AND B+C > A
         WHEN A = B OR B = C OR A = C
         	THEN 'Isosceles' 
         ELSE 'Scalene' 
-    END ELSE 'Not A Triangle'
+    	END
+    ELSE 'Not A Triangle'
 END FROM TRIANGLES
